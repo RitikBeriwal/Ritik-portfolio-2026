@@ -397,16 +397,14 @@ export const projects = [
       "React JS",
       "Redux",
       "Redux Tool Kit",
-      "Moment JS",
       "React Icons",
       "Tailwind CSS",
       "React Router DOM",
-      "Google Developer Console",
       "Netlify",
     ],
     category: "web app",
-    github: "https://github.com/GoyalAnuj973/PlayTube",
-    webapp: "https://main--playtube-by-anuj.netlify.app/",
+    github: "https://github.com/RitikBeriwal",
+    webapp: "https://github.com/RitikBeriwal",
   },
   {
     id: 0,
@@ -418,16 +416,14 @@ export const projects = [
     tags: [
       "React Js",
       "JavaScript",
-      "Open AI-GPT-3(API key)",
       "HTML",
       "CSS",
-      "Google Firebase Authentication",
       "Tailwind CSS",
       "Redux",
     ],
     category: "web app",
-    github: "https://github.com/GoyalAnuj973/GenAIFlix",
-    webapp: "https://genaiflix.netlify.app/",
+    github: "https://github.com/RitikBeriwal",
+    webapp: "https://github.com/RitikBeriwal",
     // member: [
     //   {
     //     name: "Rishav Chanda",
@@ -453,7 +449,7 @@ export const projects = [
       "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
     tags: ["Angular Js", "TypeScript", "Axios", "Material-ui"],
     category: "web app",
-    github: "https://github.com/GoyalAnuj973/Project-Management-Portal",
+    github: "https://github.com/RitikBeriwal",
     // webapp: "https://vexa-app.netlify.app/",
   },
   {
@@ -463,9 +459,9 @@ export const projects = [
     description:
       "E-learning Software for online courses similar to Udemy having APIs for respective functionalities.",
     image: "", //https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png
-    tags: ["Java", "Springboot", "MySQL", "Postman"],
+    tags: [ "MySQL", "Postman"],
     category: "web app",
-    github: "https://github.com/GoyalAnuj973/E-learning-Platform",
+    github: "https://github.com/RitikBeriwal",
     // webapp: "https://brain-tumor.netlify.app/",
     // member: [
     //   {
@@ -494,12 +490,10 @@ export const projects = [
       "ReactJS",
       "Material-UI",
       "PostgreSQL",
-      "Python",
-      "Django",
       "Postman",
     ],
     category: "web app",
-    github: "https://github.com/GoyalAnuj973/Target-Marketing-Tool",
+    github: "https://github.com/RitikBeriwal",
     // webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
   },
   {
@@ -510,9 +504,9 @@ export const projects = [
       "Software through which organizations/companies can allocate projects and the tasks included to respective teams and manage the progress report like Jira Software.",
     image:
       "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
-    tags: ["Python", "Django", "PostgreSQL", "Postman"],
+    tags: [ "PostgreSQL", "Postman"],
     category: "web app",
-    github: "https://github.com/GoyalAnuj973/Task-Allocator",
+    github: "https://github.com/RitikBeriwal",
     // webapp: "https://github.com/rishavchanda/Job-finder-App",
   },
   // {
