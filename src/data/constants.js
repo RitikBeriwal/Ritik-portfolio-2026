@@ -21,6 +21,8 @@ import postmanlogo from "../images/postmanlogo.png";
 import gitlogo from "../images/gitlogo.png";
 import playtubeimg from "../images/PlayTubeImg.png";
 import genaifliximg from "../images/GenAIFlixSS.png";
+import Bakery from "../images/Bakery ecommerce.png";
+import Furniture from "../images/Furniture.png"
 
 export const Bio = {
   name: "Ritik Beriwal",
@@ -408,22 +410,22 @@ export const projects = [
   },
   {
     id: 0,
-    title: "GenAIFlix",
+    title: "Bakery Ecommerce",
     // date: "Apr 2023 - May 2023",
     description:
-      "Firebase Authenticated Netflix Interface with Generative AI for searching and suggestions as per the respective user.",
-    image: genaifliximg,
+      "An bakery Ecommerce website which includes login feature and add unique customize cake section according to user needs.",
+    image: Bakery,
     tags: [
       "React Js",
       "JavaScript",
       "HTML",
       "CSS",
       "Tailwind CSS",
-      "Redux",
+      
     ],
     category: "web app",
-    github: "https://github.com/RitikBeriwal",
-    webapp: "https://github.com/RitikBeriwal",
+    github: "https://github.com/RitikBeriwal/Bakery-order-web",
+    webapp: "https://bakery-order-web.vercel.app/home",
     // member: [
     //   {
     //     name: "Rishav Chanda",
@@ -480,21 +482,21 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Target Marketing Tool",
+    title: "Furniture Website",
     // date: "Dec 2021 - Apr 2022",
     description:
-      "Full stack web application allowing users to do targeted marketing as per their segments, provide analytics to improve their sales by creating campaigns.",
-    image:
-      "https://camo.githubusercontent.com/fbf405040ae86b5d4a40f24e4ac034982cb8c0e2d850560ba64527997b258be8/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
+      "Full stack web application allowing users to do targeted marketing as per their segments, provide analytics to improve their sales .",
+    image:Furniture,
     tags: [
       "ReactJS",
+      "TailwindCss",
+      "Frame Motyion",
       "Material-UI",
-      "PostgreSQL",
       "Postman",
     ],
     category: "web app",
-    github: "https://github.com/RitikBeriwal",
-    // webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
+    github: "https://github.com/RitikBeriwal/Furniture-ecom-web",
+    webapp: "https://furniture-ecom-web-eight.vercel.app/",
   },
   {
     id: 10,
