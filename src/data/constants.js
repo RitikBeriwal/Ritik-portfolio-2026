@@ -1,6 +1,6 @@
 import Trinity from "../images/Trinity.png";
 import SrsMission from "../images/SrsMission.png";
-import lpu from "../images/lpu.png"
+import lpu from "../images/lpu.png";
 import Vairencecybtech from "../images/Varience cybertech.jpeg";
 import Graphura from "../images/Graphura.jpg";
 import angularlogo from "../images/angularlogo.png";
@@ -22,16 +22,16 @@ import gitlogo from "../images/gitlogo.png";
 import playtubeimg from "../images/PlayTubeImg.png";
 import genaifliximg from "../images/GenAIFlixSS.png";
 import Bakery from "../images/Bakery ecommerce.png";
-import Furniture from "../images/Furniture.png"
+import Furniture from "../images/Furniture.png";
 
 export const Bio = {
   name: "Ritik Beriwal",
-  roles: ["Frontend Developer", "UI/UX Developer", "Software Engineer"],
+  roles: ["Frontend Developer", "UI/UX Developer", "React Js Developer"],
   description:
     "I am an enthusiastic and adaptable individual, continuously seeking out new challenges. Driven by a strong desire for knowledge, I am committed to delivering exceptional results. Fueled by a positive mindset and a belief in continuous growth, I am prepared to make a significant impact and accomplish remarkable feats.",
   github: "https://github.com/RitikBeriwal",
   resume:
-    "https://drive.google.com/file/d/1cD40AShUzSVqMR6CYnJg2YwBjIcY_sHK/view?usp=sharing",
+    "https://drive.google.com/file/d/1xYNRKtmNvnGelEsYJKxN34Y2OXsIEWal/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/ritik-beriwal/",
   twitter: "/",
   insta: "httpshttps://www.instagram.com/ritik.beriwal/",
@@ -212,8 +212,7 @@ export const skills = [
       // },
       {
         name: "Netlify",
-        image:
-          netlify,
+        image: netlify,
       },
       {
         name: "VS Code",
@@ -224,10 +223,6 @@ export const skills = [
         name: "Render",
         image: render,
       },
-      {
-        name: "Figma",
-        image: figmalogo,
-      },
     ],
   },
 ];
@@ -235,10 +230,34 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: Vairencecybtech,
+    role: "Frontend Developer",
+    company: "Varience Cybertech",
+    date: "July 2024 - present",
+    desc: "Through this experience, I strengthened my skills in developing responsive and scalable frontend applications using ReactJS, JavaScript, HTML, and CSS, along with UI frameworks like Bootstrap and Material UI. I also learned how to present real-time data clearly, improve usability, and collaborate on a product designed for real-world operational impact.",
+    skills: [
+      "ReactJS",
+      // "Redux",
+      // "NodeJs",
+      "Bootstrap",
+      "Material UI",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      // "Docker",
+      // "AWS",
+      // "MongoDB",
+      // "TypeScript",
+      // "Spring Boot",
+      // "Python",
+    ],
+  },
+  {
+    id: 1,
     img: Graphura,
     role: "React.Js Developer",
     company: "Graphura India Pvt Ltd",
-    date: "Oct 2025 - Jan 2026",
+    date: "",
     desc: "I have hands-on experience in building modern, responsive web applications using HTML5, CSS3, and JavaScript as my core foundation. I use Tailwind CSS and Bootstrap to create fast, responsive layouts, and Material UI to design clean, consistent, and user-friendly interfaces.On top of this foundation, I specialize in ReactJS, where I build component-based applications, handle dynamic UI updates, and manage application state efficiently. I use Redux for centralized state management, especially in larger applications where data needs to be shared across multiple components.On the backend side, I have working knowledge of Node.js, which helps me understand API integration, asynchronous data handling, and full-stack application flow. This allows me to collaborate better with backend teams and build end-to-end features when required.Overall, these skills enable me to develop scalable, performance-oriented, and production-ready web applications with a strong focus on user experience.",
     skills: [
       // "Docker",
@@ -287,30 +306,7 @@ export const experiences = [
   //   ],
   //   doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
   // },
-  {
-    id: 1,
-    img: Vairencecybtech,
-    role: "Frontend Developer",
-    company: "Varience Cybertech",
-    date: "July 2024 - Aug 2025",
-    desc: "Through this experience, I strengthened my skills in developing responsive and scalable frontend applications using ReactJS, JavaScript, HTML, and CSS, along with UI frameworks like Bootstrap and Material UI. I also learned how to present real-time data clearly, improve usability, and collaborate on a product designed for real-world operational impact.",
-    skills: [
-      "ReactJS",
-      // "Redux",
-      // "NodeJs",
-      "Bootstrap",
-      "Material UI",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      // "Docker",
-      // "AWS",
-      // "MongoDB",
-      // "TypeScript",
-      // "Spring Boot",
-      // "Python",
-    ],
-  },
+
   // {
   //   id: 2,
   //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
@@ -415,14 +411,7 @@ export const projects = [
     description:
       "An bakery Ecommerce website which includes login feature and add unique customize cake section according to user needs.",
     image: Bakery,
-    tags: [
-      "React Js",
-      "JavaScript",
-      "HTML",
-      "CSS",
-      "Tailwind CSS",
-      
-    ],
+    tags: ["React Js", "JavaScript", "HTML", "CSS", "Tailwind CSS"],
     category: "web app",
     github: "https://github.com/RitikBeriwal/Bakery-order-web",
     webapp: "https://bakery-order-web.vercel.app/home",
@@ -461,7 +450,7 @@ export const projects = [
     description:
       "E-learning Software for online courses similar to Udemy having APIs for respective functionalities.",
     image: "", //https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png
-    tags: [ "MySQL", "Postman"],
+    tags: ["MySQL", "Postman"],
     category: "web app",
     github: "https://github.com/RitikBeriwal",
     // webapp: "https://brain-tumor.netlify.app/",
@@ -486,14 +475,8 @@ export const projects = [
     // date: "Dec 2021 - Apr 2022",
     description:
       "Full stack web application allowing users to do targeted marketing as per their segments, provide analytics to improve their sales .",
-    image:Furniture,
-    tags: [
-      "ReactJS",
-      "TailwindCss",
-      "Frame Motyion",
-      "Material-UI",
-      "Postman",
-    ],
+    image: Furniture,
+    tags: ["ReactJS", "TailwindCss", "Frame Motyion", "Material-UI", "Postman"],
     category: "web app",
     github: "https://github.com/RitikBeriwal/Furniture-ecom-web",
     webapp: "https://furniture-ecom-web-eight.vercel.app/",
@@ -506,7 +489,7 @@ export const projects = [
       "Software through which organizations/companies can allocate projects and the tasks included to respective teams and manage the progress report like Jira Software.",
     image:
       "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
-    tags: [ "PostgreSQL", "Postman"],
+    tags: ["PostgreSQL", "Postman"],
     category: "web app",
     github: "https://github.com/RitikBeriwal",
     // webapp: "https://github.com/rishavchanda/Job-finder-App",
