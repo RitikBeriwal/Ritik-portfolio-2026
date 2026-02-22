@@ -233,7 +233,7 @@ export const experiences = [
     img: Vairencecybtech,
     role: "Frontend Developer",
     company: "Varience Cybertech",
-    date: "July 2024 - present",
+    date: "July 2025 - present",
     desc: "Through this experience, I strengthened my skills in developing responsive and scalable frontend applications using ReactJS, JavaScript, HTML, and CSS, along with UI frameworks like Bootstrap and Material UI. I also learned how to present real-time data clearly, improve usability, and collaborate on a product designed for real-world operational impact.",
     skills: [
       "ReactJS",
