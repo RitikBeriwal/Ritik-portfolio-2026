@@ -31,7 +31,7 @@ export const Bio = {
     "I am an enthusiastic and adaptable individual, continuously seeking out new challenges. Driven by a strong desire for knowledge, I am committed to delivering exceptional results. Fueled by a positive mindset and a belief in continuous growth, I am prepared to make a significant impact and accomplish remarkable feats.",
   github: "https://github.com/RitikBeriwal",
   resume:
-    "https://drive.google.com/file/d/1xYNRKtmNvnGelEsYJKxN34Y2OXsIEWal/view?usp=drive_link",
+    "https://drive.google.com/file/d/1QV--21Hv6iWftCtsjWU--OcBSmIB1r9y/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/ritik-beriwal/",
   twitter: "/",
   insta: "httpshttps://www.instagram.com/ritik.beriwal/",
