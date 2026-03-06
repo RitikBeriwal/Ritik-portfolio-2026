@@ -31,7 +31,7 @@ export const Bio = {
     "I am an enthusiastic and adaptable individual, continuously seeking out new challenges. Driven by a strong desire for knowledge, I am committed to delivering exceptional results. Fueled by a positive mindset and a belief in continuous growth, I am prepared to make a significant impact and accomplish remarkable feats.",
   github: "https://github.com/RitikBeriwal",
   resume:
-    "https://drive.google.com/file/d/1QV--21Hv6iWftCtsjWU--OcBSmIB1r9y/view?usp=drive_link",
+    "https://drive.google.com/file/d/1l8dexEsawZ6OVG5lAqlk9jCnK2OpLf4V/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/ritik-beriwal/",
   twitter: "/",
   insta: "httpshttps://www.instagram.com/ritik.beriwal/",
@@ -230,15 +230,15 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: Vairencecybtech,
+    img: VarianceCybertech,
     role: "Frontend Developer",
     company: "Varience Cybertech",
     date: "July 2025 - present",
     desc: "Through this experience, I strengthened my skills in developing responsive and scalable frontend applications using ReactJS, JavaScript, HTML, and CSS, along with UI frameworks like Bootstrap and Material UI. I also learned how to present real-time data clearly, improve usability, and collaborate on a product designed for real-world operational impact.",
     skills: [
       "ReactJS",
-      // "Redux",
-      // "NodeJs",
+      "Redux",
+      "NodeJs",
       "Bootstrap",
       "Material UI",
       "HTML",
@@ -246,7 +246,7 @@ export const experiences = [
       "JavaScript",
       // "Docker",
       // "AWS",
-      // "MongoDB",
+      "MongoDB",
       // "TypeScript",
       // "Spring Boot",
       // "Python",
@@ -409,7 +409,7 @@ export const projects = [
     title: "Bakery Ecommerce",
     // date: "Apr 2023 - May 2023",
     description:
-      "An bakery Ecommerce website which includes login feature and add unique customize cake section according to user needs.",
+      "Built React.js bakery ordering platform with responsive navbar (Home, Menu, Custom Cake, About, Contact, Login). Implemented 32+ product catalogue with advanced filtering (price range, flavor, weight), product categories (Birthday Cakes, Premium Cakes, Pastries, Rolls, Breads, Cookies, Donuts, Pizzas). Developed custom cake builder feature allowing users to customize flavors, layers, toppings & designs. Integrated dual authentication (User & Super Admin Login) with admin dashboard tracking monthly sales analytics, customer order frequency metrics & real-time business insights. Built contact forms, newsletter subscriptions, social.",
     image: Bakery,
     tags: ["React Js", "JavaScript", "HTML", "CSS", "Tailwind CSS"],
     category: "web app",
@@ -431,6 +431,18 @@ export const projects = [
     // ],
   },
   {
+    id: 3,
+    title: "Furniture Website",
+    // date: "Dec 2021 - Apr 2022",
+    description:
+      "Built responsive React.js e-commerce platform with 8 multi-page navigation (Home, Catalogue, Categories, Templates, About, Contact), 20+ furniture categories, advanced product filtering, authentication (login/signup), wishlist & cart functionality. Implemented dynamic UI components: product listings, price-range filters, material selection, customer testimonials, contact forms, and Google Maps integration.",
+    image: Furniture,
+    tags: ["ReactJS", "TailwindCss", "Frame Motyion", "Material-UI", "Postman"],
+    category: "web app",
+    github: "https://github.com/RitikBeriwal/Furniture-ecom-web",
+    webapp: "https://furniture-ecom-web-eight.vercel.app/",
+  },
+  {
     id: 1,
     title: "Project Management Portal",
     // date: "Oct 2022 - Present",
@@ -443,16 +455,16 @@ export const projects = [
     github: "https://github.com/RitikBeriwal",
     // webapp: "https://vexa-app.netlify.app/",
   },
-  {
-    id: 2,
-    title: "E-learning Platform",
+  // {
+  //   id: 2,
+  //   title: "E-learning Platform",
     // date: "Jan 2023 - Mar 2023",
-    description:
-      "E-learning Software for online courses similar to Udemy having APIs for respective functionalities.",
-    image: "", //https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png
-    tags: ["MySQL", "Postman"],
-    category: "web app",
-    github: "https://github.com/RitikBeriwal",
+    // description:
+    //   "E-learning Software for online courses similar to Udemy having APIs for respective functionalities.",
+    // image: "", //https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png
+    // tags: ["MySQL", "Postman"],
+    // category: "web app",
+    // github: "https://github.com/RitikBeriwal",
     // webapp: "https://brain-tumor.netlify.app/",
     // member: [
     //   {
@@ -468,19 +480,7 @@ export const projects = [
     //     github: "https://github.com/upasana0710",
     //   },
     // ],
-  },
-  {
-    id: 3,
-    title: "Furniture Website",
-    // date: "Dec 2021 - Apr 2022",
-    description:
-      "Full stack web application allowing users to do targeted marketing as per their segments, provide analytics to improve their sales .",
-    image: Furniture,
-    tags: ["ReactJS", "TailwindCss", "Frame Motyion", "Material-UI", "Postman"],
-    category: "web app",
-    github: "https://github.com/RitikBeriwal/Furniture-ecom-web",
-    webapp: "https://furniture-ecom-web-eight.vercel.app/",
-  },
+  // },
   {
     id: 10,
     title: "Task Allocator",
